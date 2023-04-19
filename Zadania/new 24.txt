@@ -1,0 +1,37 @@
+Napisz system banku za pomocą klas który:
+
+- oferuje opcję zakładania konta. Klient musi podać imię, nazwisko i datę urodzenia, login i hasło.
+- Klient nie może być młodszy niż 18 lat.
+
+- Oferuje logowanie do konta za pomocą loginu i hasła
+
+- Sprawdzenie stanu konta
+
+- Jest dostępna opcja wpłaty na konto. Środki klient ma nielimitowane tzn. jak chce wpłacić milion zł to po prostu zwiększamy jego stan konta
+
+- Jest dostępna opcja wypłaty. Naturalnie nie można wypłacić więcej niż posiadamy
+
+- Pomiędzy klientami możemy dokonywać transferów przez podanie imienia i nazwiska docelowego konta
+
+- Stan systemu powinien być zapisywany do pliku tekstowego oraz odczytywany w momencie startu programu.
+
+
+Przykładowe menu
+- Rejestracja
+- Login
+
+
+Zalogowane
+- Wpłata
+- Wypłata
+- Transfer
+- Stan konta
+
+
+Sugerowane klasy:
+Program,
+Bank,
+Konto,
+Klient
+
+-- Należy uwzględnić, że w przyszłości program może zostać rozszerzony o dodatkowe funkcjonalności np współpracę między bankami. Czyli nie można zakładać, że będzie tylko jedna instancja Banku.
