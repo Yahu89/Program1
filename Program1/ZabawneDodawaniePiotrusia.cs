@@ -37,7 +37,7 @@ namespace Program1
 
         public bool IsPalindrom(int digit)
         {
-            return digit.toString().Equals(digit.toString().Reverse())
+            return digit.ToString().Equals(digit.ToString().Reverse());
         }
 
         public bool IsPalindrom(int digit, int index)
