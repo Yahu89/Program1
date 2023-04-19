@@ -1,3 +1,17 @@
+Wisielec w konsoli
+
+- Lista haseł w pliku. Na start losujesz jedno z pliku (bonus)
+
+
+_ _ _ A         _ B B _
+Masz 5 prób.
+Twój typ: C
+_ _ _ A         _ B B _
+Masz 4 próby.
+
+
+----------------------
+Bank
 Napisz system banku za pomocą klas który:
 
 - oferuje opcję zakładania konta. Klient musi podać imię, nazwisko i datę urodzenia, login i hasło.
@@ -15,6 +29,8 @@ Napisz system banku za pomocą klas który:
 
 - Stan systemu powinien być zapisywany do pliku tekstowego oraz odczytywany w momencie startu programu.
 
+- Przechowuje i jest w stanie wyświetlić wszystkie operacje związane z danym kontem
+
 
 Przykładowe menu
 - Rejestracja
@@ -26,6 +42,7 @@ Zalogowane
 - Wypłata
 - Transfer
 - Stan konta
+- Historia konta
 
 
 Sugerowane klasy:
@@ -35,3 +52,5 @@ Konto,
 Klient
 
 -- Należy uwzględnić, że w przyszłości program może zostać rozszerzony o dodatkowe funkcjonalności np współpracę między bankami. Czyli nie można zakładać, że będzie tylko jedna instancja Banku.
+
+
